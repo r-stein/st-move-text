@@ -1,0 +1,12 @@
+{
+    // This will overwrite the move commands, like ctrl+right,
+    // if text is selected.
+    // It will not overwrite the basic move commands like the right arrow.
+    "overwrite.move": true,
+    // This will also overwrite left/right/up/down arrows,
+    // if text is selected.
+    "overwrite.base_move": false,
+    // This will overwrite the move_to commands, like home/end,
+    // if text is selected.
+    "overwrite.move_to": false,
+}
